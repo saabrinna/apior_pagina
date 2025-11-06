@@ -1,0 +1,51 @@
+body {
+    background: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
+    color: lime;
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+    margin: 0;
+    overflow-x: scroll;
+  }
+  
+  marquee {
+    font-size: 50px;
+    color: red;
+    background: yellow;
+    text-transform: uppercase;
+  }
+  
+  img {
+    width: 500px;
+    height: 200px;
+    transform: rotate(10deg);
+  }
+  
+  .menu {
+    background: magenta;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  button {
+    background: linear-gradient(to right, red, green, blue, yellow);
+    color: yellow;
+    font-size: 25px;
+    animation: pisca 0.3s infinite;
+    border: 5px dashed black;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  @keyframes pisca {
+    0% {background-color: blue;}
+    50% {background-color: red;}
+    100% {background-color: green;}
+  }
+  
+  .descricao {
+    font-size: 40px;
+    color: yellow;
+    background-color: blue;
+    padding: 10px;
+  }
+  
